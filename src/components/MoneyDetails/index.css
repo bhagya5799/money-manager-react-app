@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.money-details-container{
+    width: 20%;
+    height: 5rem;
+    background-color: #ecfccb;
+    display: flex;
+   align-items: center;
+   padding: 1rem;
+   gap: 2rem;
+   border-radius: 1rem;
+}
+.your-balance{
+    display: flex;
+   flex-direction: column;
+}
+.image-money{
+    height: 3rem;
+    width: 3rem;
+}
+.cash{
+    color: gray;
+}
+p{
+    color: #334155;
+}
+.balance{
+background-color: #ecfccb;
+}
+.Income{
+background-color: #cffafe;
+}
+.expenses{
+    background-color: #ede9fe;
+}

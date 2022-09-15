@@ -1,0 +1,80 @@
+/* Write your CSS here */
+body{
+padding: 5rem;
+
+}
+.profile-manager{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    background-image: url("https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png");
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;border-bottom-right-radius: 2rem;
+    background-size: cover;
+    width: 60vw;
+   
+}
+span{
+color:  #0b69ff;
+padding-left: 0.5rem;
+font-weight: bold;
+}
+.money-details{
+    display: flex;
+gap: 2.7rem;
+padding-left: 0;
+}
+.transaction{
+    border: 1px solid gray;
+    width: 30%;
+    padding-left: 1rem;
+}
+.transaction-history-details{
+    /* padding: 2rem; */
+    display: flex;
+    gap: 3px;
+   
+}
+.add-transaction{
+color:  #475569;
+}
+label{
+    font-size: 0.8rem;
+}
+input{
+    height: 2rem;
+    width: 12rem;
+}
+button{
+    background-color: #0b69ff;
+    color: aliceblue;
+    width: 5rem;
+    height: 2rem;
+    border-width:0 ;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.history-container{
+    border: 1px solid gray;
+    width: 40%;
+}
+.history-container{
+    padding: 1rem;
+    color: gray;
+}
+.title{
+    color: black;
+}
+.history-items{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    padding: 0.7rem;
+   
+}
+.title{
+    color: gray;
+}
