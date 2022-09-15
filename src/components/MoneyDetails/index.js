@@ -5,15 +5,15 @@ import './index.css'
 
 const MoneyDetails = props => {
   const {details} = props
-  const {imgUrl, moneyType, Class} = details
+  const {imgUrl, moneyType, Class, amount, alt} = details
   return (
     <li className={`money-details-container ${Class}`}>
       <div>
-        <img className="image-money" src={imgUrl} />
+        <img className="image-money" src={imgUrl} alt={alt} />
       </div>
       <div className="your-balance">
         <p>{moneyType}</p>
-        <span className="cash">RS 0</span>
+        <p className="cash">0</p>
       </div>
     </li>
   )

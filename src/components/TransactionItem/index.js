@@ -1,19 +1,18 @@
 // Write your code here
 import React from 'react'
 
-const TransactionItem = props => {
-  const details = props
-  const {title, amount, type, moneyBankList} = details
+import './index.css'
 
+const TransactionItem = props => {
+  const {details} = props
+  const {title, amount, type, moneyBankList} = details
   return (
-    <div>
-      <p>{title}</p>
-      <p>{amount}</p>
-      <p>{type}</p>
-      <button>
-        <img src="https://assets.ccbp.in/frontend/react-js/money-manager/delete.png" />
-      </button>
-    </div>
+    <li className="items-container">
+      <span className="ss">{title}</span>
+      <span>{amount}</span>
+      <span>{type}</span>
+      <img src="https://assets.ccbp.in/frontend/react-js/money-manager/delete.png " />
+    </li>
   )
 }
 export default TransactionItem

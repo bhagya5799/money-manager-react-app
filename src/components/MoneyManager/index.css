@@ -62,7 +62,7 @@ button{
     width: 40%;
 }
 .history-container{
-    padding: 1rem;
+    padding: 0.3rem;
     color: gray;
 }
 .title{
@@ -72,9 +72,15 @@ button{
     display: flex;
     justify-content: space-around;
     border: 1px solid gray;
-    padding: 0.7rem;
+    /* padding: 0.7rem; */
    
 }
 .title{
     color: gray;
+}
+.transactionItems-container{
+  
+    margin-left: 0;
+    padding-left: 0.4rem;
+
 }
